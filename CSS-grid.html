@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Két DIV egymás mellett - Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Két oszlop, egyenlő szélességgel */
+            gap: 10px; /* Távolság az oszlopok között */
+        }
+        .box {
+            background-color: lightblue;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Ez az első DIV elem.</div>
+        <div class="box">Ez a második DIV elem.</div>
+    </div>
+</body>
+</html>
